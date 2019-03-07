@@ -7,13 +7,7 @@ We encourage changes that make it easier to achieve our goals in an efficient wa
 
 ## Codebase
 
-* [clients](https://github.com/MAIF/melusine/clients): contains code for client libraries and CLI
-* [docker](https://github.com/MAIF/melusine/docker): contains various Dockerfiles
-* [docs](https://github.com/MAIF/melusine/docs): contains the Melusine website, avoid modification as its generated
-* [manual](https://github.com/MAIF/melusine/manual): the melusine user manual that will be generated with [Paradox](https://github.com/lightbend/paradox)
-* [melusine](https://github.com/MAIF/melusine/melusine): the melusine server app
-* [resources](https://github.com/MAIF/melusine/resources): various static resources
-* [scripts](https://github.com/MAIF/melusine/scripts): various scripts used by Travis and devs
+* [melusine](https://github.com/MAIF/melusine/melusine): the Melusine library
 
 ## Workflow
 
