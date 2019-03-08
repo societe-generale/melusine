@@ -6,7 +6,9 @@ from melusine.config.config import ConfigJsonReader
 conf_reader = ConfigJsonReader()
 config = conf_reader.get_config_file()
 
-stopwords = config["words_list"]["stopwords"] + config["words_list"]["names"]
+newStopWords = config["words_list"]["stopwords"]
+stopwords = nltk.corpus.stopwords.words('french')
+stopwords.extend(newStopWords)
 
 regex_tokenize = "\w+(?:[\?\-\"_]\w+)*"
 
