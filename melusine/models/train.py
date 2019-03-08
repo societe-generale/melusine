@@ -16,7 +16,7 @@ class NeuralModel(BaseEstimator, ClassifierMixin):
 
     Parameters
     ----------
-    neural_architecture_function : function,
+    architecture_function : function,
         Function which returns a Model instance from Keras.
 
     pretrained_embedding : np.array,
